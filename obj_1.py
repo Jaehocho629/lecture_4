@@ -1,5 +1,9 @@
 class cat:
-    pass
+    #class variable or member
+    color = 'red'
+    #instance method
+    def meow(self):
+        print("야옹 야옹")
 
 raon = cat()
-print(raon)
+raon.meow()
